@@ -1,5 +1,9 @@
 # Alexa Skill Kit
 
+[![](https://travis-ci.org/stojanovic/alexa-skill-kit.svg?branch=master)](https://travis-ci.org/stojanovic/alexa-skill-kit)
+[![npm](https://img.shields.io/npm/v/alexa-skill-kit.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/alexa-skill-kit)
+[![npm](https://img.shields.io/npm/l/alexa-skill-kit.svg?maxAge=2592000?style=plastic)](https://github.com/stojanovic/alexa-skill-kit/blob/master/LICENSE)
+
 Library for effortless Alexa Skill development with AWS Lambda.
 
 <h1 align="center">
