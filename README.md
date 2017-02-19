@@ -5,6 +5,11 @@ Library for effortless Alexa Skill development with AWS Lambda.
 In this documentation:
 
 - [Installation guide](#installation)
+- [Usage](#usage)
+..- [Replying with a simple text](replying-with-a-simple-text)
+..- [Replying with an object](replying-with-an-object)
+..- [More complex replies](more-complex-replies)
+..- [Async replies](#async-replies)
 - [API reference](#api-reference)
 - [Example project](#example-project)
 - [How to contribute](#contribute)
