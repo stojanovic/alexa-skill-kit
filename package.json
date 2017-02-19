@@ -1,0 +1,35 @@
+{
+  "name": "alexa-skill-kit",
+  "version": "1.0.0",
+  "description": "Library for effortless Alexa Skill development with AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint lib spec *.js",
+    "test": "node spec/support/jasmine-runner.js",
+    "debug": "node debug spec/support/jasmine-runner.js"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "amazon",
+    "chatbots",
+    "bots",
+    "echo"
+  ],
+  "author": "Slobodan Stojanovic <slobodan@cloudhorizon.com> (http://slobodan.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-defaults": "^9.0.0",
+    "jasmine": "^2.5.3",
+    "jasmine-spec-reporter": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stojanovic/alexa-skill-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stojanovic/alexa-skill-kit/issues"
+  },
+  "homepage": "https://github.com/stojanovic/alexa-skill-kit"
+}
