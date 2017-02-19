@@ -2,6 +2,11 @@
 
 Library for effortless Alexa Skill development with AWS Lambda.
 
+<h1 align="center">
+  <img width="150" src="alexa-skill-kit.png" alt="Alexa Skill Kit">
+  <br>
+</h1>
+
 In this documentation:
 
 - [Installation guide](#installation)
