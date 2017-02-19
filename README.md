@@ -16,7 +16,6 @@ In this documentation:
   - [More complex replies](#more-complex-replies)
   - [Async replies](#async-replies)
 - [API reference](#api-reference)
-- [Example project](#example-project)
 - [How to contribute](#contribute)
 - [License](#license)
 
@@ -216,8 +215,6 @@ In case you don't want Alexa to reply simply return `null` or don't return at al
 - sessionAttributes: (_object_) - an object with session attributes from Alexa request, if they does not exist, this property will be an empty object (`{}`)
 - user: (_object_) - user object from Alexa request, Alexa Skill Kit will try to load user from the context, then from the session and finally, it'll set an empty object if user info is not found
 - originalRequest: (_object_) - full Alexa request, as received from AWS Lambda and as described in an [official documentation](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference#request-format).
-
-## Example project
 
 ## Contribute
 
