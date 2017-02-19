@@ -6,9 +6,9 @@ In this documentation:
 
 - [Installation guide](#installation)
 - [Usage](#usage)
-  - [Replying with a simple text](replying-with-a-simple-text)
-  - [Replying with an object](replying-with-an-object)
-  - [More complex replies](more-complex-replies)
+  - [Replying with a simple text](#replying-with-a-simple-text)
+  - [Replying with an object](#replying-with-an-object)
+  - [More complex replies](#more-complex-replies)
   - [Async replies](#async-replies)
 - [API reference](#api-reference)
 - [Example project](#example-project)
@@ -61,10 +61,10 @@ exports.handler = function(event, context) {
 
 Alexa Skill Kit simplifies replying to Alexa requests. There's a few things you can do:
 
-- [Replying with a simple text](replying-with-a-simple-text)
-- [Replying with an object](replying-with-an-object)
-- [More complex replies](more-complex-replies)
-- [Async replies](async-replies)
+- [Replying with a simple text](#replying-with-a-simple-text)
+- [Replying with an object](#replying-with-an-object)
+- [More complex replies](#more-complex-replies)
+- [Async replies](#async-replies)
 
 Keep on reading and all of them will be explained bellow.
 
@@ -191,6 +191,26 @@ Alexa Skill Kit will answer with the text:
 ```
 
 ## API reference
+
+**Alexa Skill Kit** (`function`) receives following attributes:
+
+- Event (`object`, required) — an unmodified object received from Amazon Alexa. If your Lambda function receives an object that is not valid Amazon Alexa request it will not parse it and your handler function will never be called.
+- Context (`object`, required) — a context object received on AWS Lambda, it is recommended not to modify it, but Alexa Skill Kit will use `context.succeed` and `context.fail` functions only, so you can pass a custom object that contains those two functions from and original context object.
+- Handler (`function`, required) — a function that receives parsed event and returns a reply that will be passed to Amazon Alexa.
+
+**Handler function** is a function that receives parsed event and can return string, object or a promise that will return string or object when it is resolved.
+
+In case you don't want Alexa to reply simply return `null` or don't return at all.
+
+**Parsed object** is an object that contains following properties:
+
+- type (_string_) - type of the request, it can be 'LaunchRequest', 'IntentRequest', 'SessionEndedRequest', or one of the 'AudioPlayer' or 'PlaybackController' requests
+- request (_object_) - full request object from Alexa request
+- intent: (_object_, can be _null_) - intent object from Alexa request, if the request does not contain intent, this property will be `null`
+- session: (_object_, can be _null_) - session object from Alexa request, if session doesn't exists in the request, this property will be `null`
+- sessionAttributes: (_object_) - an object with session attributes from Alexa request, if they does not exist, this property will be an empty object (`{}`)
+- user: (_object_) - user object from Alexa request, Alexa Skill Kit will try to load user from the context, then from the session and finally, it'll set an empty object if user info is not found
+- originalRequest: (_object_) - full Alexa request, as received from AWS Lambda and as described in an [official documentation](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference#request-format).
 
 ## Example project
 
