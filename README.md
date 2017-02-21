@@ -12,8 +12,6 @@
 Library for effortless Alexa Skill development with AWS Lambda.
 
 | [🚀 Installation](#installation) | [🤖 Usage](#usage) | [📕 API reference](#api-reference) | [🤘 How to contribute](#contribute) | [⚖️ License](#license) |
-| -------------------------------- | -----------------: | ---------------------------------- | ----------------------------------- | ---------------------- |
-|                                  |                    |                                    |                                     |                        |
 
 ## Installation
 
