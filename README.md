@@ -24,7 +24,7 @@ npm install alexa-skill-kit --save
 
 ## How it works
 
-<img width="650" src="flow.png" alt="Alexa Skill Kit flow">
+<img width="100%" src="flow.png" alt="Alexa Skill Kit flow">
 
 
 ## Usage
