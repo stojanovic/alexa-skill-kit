@@ -1,3 +1,8 @@
+<h1 align="center">
+  <img width="150" src="alexa-skill-kit.png" alt="Alexa Skill Kit">
+  <br>
+</h1>
+
 # Alexa Skill Kit
 
 [![](https://travis-ci.org/stojanovic/alexa-skill-kit.svg?branch=master)](https://travis-ci.org/stojanovic/alexa-skill-kit)
@@ -6,22 +11,9 @@
 
 Library for effortless Alexa Skill development with AWS Lambda.
 
-<h1 align="center">
-  <img width="150" src="alexa-skill-kit.png" alt="Alexa Skill Kit">
-  <br>
-</h1>
-
-In this documentation:
-
-- [Installation guide](#installation)
-- [Usage](#usage)
-  - [Replying with a simple text](#replying-with-a-simple-text)
-  - [Replying with an object](#replying-with-an-object)
-  - [More complex replies](#more-complex-replies)
-  - [Async replies](#async-replies)
-- [API reference](#api-reference)
-- [How to contribute](#contribute)
-- [License](#license)
+| [🚀 Installation](#installation) | [🤖 Usage](#usage) | [📕 API reference](#api-reference) | [🤘 How to contribute](#contribute) | [⚖️ License](#license) |
+| -------------------------------- | -----------------: | ---------------------------------- | ----------------------------------- | ---------------------- |
+|                                  |                    |                                    |                                     |                        |
 
 ## Installation
 
