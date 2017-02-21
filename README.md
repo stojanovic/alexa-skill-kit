@@ -11,7 +11,8 @@
 
 Library for effortless Alexa Skill development with AWS Lambda.
 
-| [🚀 Installation](#installation) | [🤖 Usage](#usage) | [📕 API reference](#api-reference) | [🤘 How to contribute](#contribute) | [⚖️ License](#license) |
+| [🚀 Installation](#installation) | [🤔 How it works](#how-it-works) | [🤖 Usage](#usage) | [📕 API reference](#api-reference) | [🤘 How to contribute](#contribute) | [⚖️ License](#license) |
+| -------------------------------- | ----------------- | ----------------- | ---------------------------------- | ----------------------------------- | ---------------------- |
 
 ## Installation
 
@@ -20,6 +21,11 @@ Alexa Skill Kit is available as a Node.js module on NPM. To install it, run the 
 ```shell
 npm install alexa-skill-kit --save
 ```
+
+## How it works
+
+<img width="650" src="flow.png" alt="Alexa Skill Kit flow">
+
 
 ## Usage
 
