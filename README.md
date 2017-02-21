@@ -65,10 +65,8 @@ exports.handler = function(event, context) {
 
 Alexa Skill Kit simplifies replying to Alexa requests. There's a few things you can do:
 
-- [Replying with a simple text](#replying-with-a-simple-text)
-- [Replying with an object](#replying-with-an-object)
-- [More complex replies](#more-complex-replies)
-- [Async replies](#async-replies)
+| [📝 Replying with a simple text](#replying-with-a-simple-text) | [🛠 Replying with an object](#replying-with-an-object) | [💄 More complex replies](#more-complex-replies) | [⏳ Async replies](#async-replies) |
+| ----- | ----- | ----- | ----- | ----- |
 
 Keep on reading and all of them will be explained bellow.
 
